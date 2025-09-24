@@ -6,6 +6,8 @@ def str_to_int(string):
     You can pass "1.1" which returns 1
     ["1"] -> raises RuntimeError
     """
+    import pdb
+    pdb.set_trace()
     error_msg = "Unable to convert to integer: '%s'" % str(string)
     try:
         integer = float(string.replace(',', '.'))
