@@ -18,3 +18,7 @@ Thumbs.db
 
 # Azure
 .azureml
+
+# Setuptools
+jformat.egg-info
+summarize.egg-info
